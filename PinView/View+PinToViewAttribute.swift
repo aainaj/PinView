@@ -152,7 +152,7 @@ public extension View {
     @discardableResult func constrainHeight(to constant: CGFloat = 0,
                         priority: Priority = Priority.required,
                         relatedBy relation: Relation = .equal) -> Constraint {
-        let constraint = makeConstraint(attribute: .width,
+        let constraint = makeConstraint(attribute: .height,
                               constant: constant,
                               priority: priority,
                               relatedBy: relation)
